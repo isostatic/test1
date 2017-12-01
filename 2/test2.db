@@ -25,6 +25,7 @@ $ORIGIN abc.test2.co.uk.
 
 ; ABC Service Gateways
 info                    IN    A        123.45.231.79
+new                     IN    A        3.4.5.6
 
 ;
 ; Production subdomain

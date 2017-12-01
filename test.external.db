@@ -2,7 +2,7 @@
 $TTL 300
 $ORIGIN abc.test.co.uk.
 @   IN  SOA     ns.test.co.uk. hostmaster.test.co.uk. (
-2017112805  ;Serial
+2017112806  ;Serial
 3600        ;Refresh
 1800        ;Retry
 604800      ;Expire
@@ -25,7 +25,6 @@ $ORIGIN abc.test.co.uk.
 
 ; ABC Service Gateways
 info                    IN    A        123.45.231.79
-bob                     IN    A        123.45.231.79
 
 ;
 ; Production subdomain
