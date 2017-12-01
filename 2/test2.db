@@ -1,0 +1,42 @@
+;zone fragment for abc.test2.co.uk
+$TTL 300
+$ORIGIN abc.test2.co.uk.
+@   IN  SOA     ns.test2.co.uk. hostmaster.test2.co.uk. (
+2017112802  ;Serial
+3600        ;Refresh
+1800        ;Retry
+604800      ;Expire
+300         ;Minimum TTL
+)
+;Name Server Information
+;@       IN  NS      ns1.plt.test2.co.uk.
+@       IN  NS      ns4.aab.net.uk.
+@       IN  NS      ns3.test2.co.uk.
+@       IN  NS      ns4.test2.co.uk.
+@       IN  NS      ns3.aab.net.uk.
+;IP address of Name Server
+;primary IN  A       123.45.243.80
+;A - Record Hostname To Ip Address
+
+
+;
+; Top level subdomain
+;
+
+; ABC Service Gateways
+info                    IN    A        123.45.231.79
+
+;
+; Production subdomain
+;
+$TTL 3600
+$ORIGIN prod.abc.test2.co.uk.
+
+
+;
+; Development subdomain
+;
+$TTL 3600
+$ORIGIN dev.abc.test2.co.uk.
+
+bob.dave-mike            IN    A        192.168.166.255
