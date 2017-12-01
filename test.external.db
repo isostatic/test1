@@ -2,7 +2,7 @@
 $TTL 300
 $ORIGIN abc.test.co.uk.
 @   IN  SOA     ns.test.co.uk. hostmaster.test.co.uk. (
-2017112802  ;Serial
+2017112805  ;Serial
 3600        ;Refresh
 1800        ;Retry
 604800      ;Expire
@@ -41,3 +41,4 @@ $TTL 3600
 $ORIGIN dev.abc.test.co.uk.
 
 bob.dave-mike            IN    A        192.168.166.255
+test                     IN    A        1.2.3.4
