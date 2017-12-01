@@ -41,3 +41,4 @@ $ORIGIN dev.abc.test.co.uk.
 
 bob.dave-mike            IN    A        192.168.166.255
 test                     IN    A        1.2.3.4
+test2                     IN    A        1.2.3.4
