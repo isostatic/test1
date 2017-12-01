@@ -1,7 +1,7 @@
-;zone fragment for abc.test.co.uk
+;zone fragment for abc.test3.co.uk
 $TTL 300
-$ORIGIN abc.test.co.uk.
-@   IN  SOA     ns.test.co.uk. hostmaster.test.co.uk. (
+$ORIGIN abc.test3.co.uk.
+@   IN  SOA     ns.test3.co.uk. hostmaster.test3.co.uk. (
 2017112802  ;Serial
 3600        ;Refresh
 1800        ;Retry
@@ -9,10 +9,10 @@ $ORIGIN abc.test.co.uk.
 300         ;Minimum TTL
 )
 ;Name Server Information
-;@       IN  NS      ns1.plt.test.co.uk.
+;@       IN  NS      ns1.plt.test3.co.uk.
 @       IN  NS      ns4.aab.net.uk.
-@       IN  NS      ns3.test.co.uk.
-@       IN  NS      ns4.test.co.uk.
+@       IN  NS      ns3.test3.co.uk.
+@       IN  NS      ns4.test3.co.uk.
 @       IN  NS      ns3.aab.net.uk.
 ;IP address of Name Server
 ;primary IN  A       123.45.243.80
@@ -25,19 +25,18 @@ $ORIGIN abc.test.co.uk.
 
 ; ABC Service Gateways
 info                    IN    A        123.45.231.79
-bob                     IN    A        123.45.231.79
 
 ;
 ; Production subdomain
 ;
 $TTL 3600
-$ORIGIN prod.abc.test.co.uk.
+$ORIGIN prod.abc.test3.co.uk.
 
 
 ;
 ; Development subdomain
 ;
 $TTL 3600
-$ORIGIN dev.abc.test.co.uk.
+$ORIGIN dev.abc.test3.co.uk.
 
 bob.dave-mike            IN    A        192.168.166.255
