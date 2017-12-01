@@ -1,8 +1,8 @@
 ;zone fragment for abc.test3b.co.uk
-$TTL 300
+$TTL 301
 $ORIGIN abc.test3b.co.uk.
 @   IN  SOA     ns.test3b.co.uk. hostmaster.test3b.co.uk. (
-2017112802  ;Serial
+2017112901  ;Serial
 3600        ;Refresh
 1800        ;Retry
 604800      ;Expire
