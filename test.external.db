@@ -1,5 +1,6 @@
 ;zone fragment for abc.test.co.uk
 $TTL 300
+asdf
 $ORIGIN abc.test.co.uk.
 @   IN  SOA     ns.test.co.uk. hostmaster.test.co.uk. (
 2017112801  ;Serial
