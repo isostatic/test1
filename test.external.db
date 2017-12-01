@@ -3,7 +3,7 @@ $TTL 300
 asdf
 $ORIGIN abc.test.co.uk.
 @   IN  SOA     ns.test.co.uk. hostmaster.test.co.uk. (
-2017112801  ;Serial
+2017112802  ;Serial
 3600        ;Refresh
 1800        ;Retry
 604800      ;Expire
